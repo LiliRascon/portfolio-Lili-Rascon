@@ -1,6 +1,6 @@
 ![Adalab](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LZZ7_HREMZMUMXiWrCj%2F-LZZ7xHB1bnkIxUrw_Yx%2F-LZZ83Upae8RuHPxHpB8%2Fadalab_brand.png?generation=1551089555419087&alt=media)
 
-![di](https://i.ibb.co/3fHgbNb/IMG-6750.jpg)
+![di](https://i.ibb.co/hYrj4vy/portada-Portfolio.png)
 
 ## PORTFOLIO LILI RASCÓN   
 ## Visita mi portfolio 😍, también tienes acceso al código!!
@@ -10,55 +10,42 @@
 > => Portfolio con una colección de mis proyectos. ♻️
 
 	
-<h3 text-align="center">Liliana Rascón E.  <a href="#" target="_blank">   Mothers of Code</a>.</h3>
+<h3 text-align="center">Liliana Rascón E.  <a href="https://i.ibb.co/VpDw6KC/404.png" target="_blank">Page</a>.</h3>
 
-Somos un equipo de 5 compañeras programadoras 💻 de la promo Idelisa de ADALAB, situado en Madrid, aprendiendo con mucha ilusión diferentes tecnologías como lo es: HTML5, CSS3, SASS, JavaScript y React.
+🕵🏻‍♀️ Soy una persona que busca aprender y crecer de cada experiencia vivida.
+Estudié Ingeniería Informática 👩‍💻, pero gracias a trabajar en diferentes sectores, he desarrollado habilidades de liderazgo y trabajo en equipo ✔️.
 
-=>En este repositorio encontrarás nuestro último proyecto del módulo 3 de React de AdaLab, el cual ha sido creado para implementar esta tecnología (React), consiste en un código heredado (dedicado a crear una web para generar tarjetas de visita virtuales), el próposito en este modulo es, que el código que nos ha sido asignado, sea cambiado de JavaScript a React.   
+=>Decidí entrar a ADALAB, buscando actualizarme y descubrí que el mundo de la programación ♥️ es lo que me sigue apasionando, y que no es para los más fuertes 💪🏼, sino para las más valientes 💅.  
 
 
-## Autoras ✒️
-⚔️  👩🏻‍💻 ⚔️  | Laura García   | [GitHub](https://github.com/laurageeme) | ⚔️  👩🏻‍💻 ⚔️
+## Autora ✒️
 
-🔱 💻 🔱 | Maite Villar   |  [GitHub](https://github.com/maitevillar)  | 🔱 💻 🔱
-
-👑 💃 👑 | Ana Valdivia   |  [GitHub](https://github.com/Anavalca)     | 👑 💃 👑 
-
-🛡 🔮 🛡 | Liliana Rascón |  [GitHub](https://github.com/LiliRascon)   | 🛡 🔮 🛡
-
-🏹 🏰 🏹 | Mercy Grace    |  [GitHub](https://github.com/mgracesb)     | 🏹 🏰 🏹
+👑 👩🏻‍💻 👑 | Liliana Rascón |  [GitHub](https://github.com/LiliRascon)   | 👑 👩🏻‍💻 👑
  
 ## Contenido
 
-- [Autoras](#autoras)
-- [Objetivos del curso](#objetivos)
+- [Autora](#autora)
+- [Objetivos](#objetivos)
 - [Instalación](#instalación)
 - [Especificaciones](#especificaciones)
-- [Metodología](#metodología-de-trabajo)
-    - [Scrum](#scrum)
-    - [GitHub](#github)
 - [Estructura del proyecto](#estructura)
 - [Contribuye](#contribuye)
-- [Agradecimientos](#agradecimientos)
 - [Ecofriendly](#ecofriendly)
 - [Recursos](#recursos)
 - [Creado](#creado) 
 
 ## Objetivos
 
-1.  Aprender un nuevo lenguaje de programación React (uso de clases, estructuras de datos, funciones, etc.) :thumbsup:
+1.  Recopilación de cada proyecto creado en diferentes lenguajes de programación. :thumbsup:
     
-2.  Comprender cómo manipular una página a través de componentes. :thumbsup:
+2.  Utilizar diferentes herramientas para unir en un solo documento diferentes proyectos. :thumbsup:
     
-3.  Manejo de estados y uso de datos por medio de props. :thumbsup:
+3.  Permitir acceso a cualquier persona, tanto al código del proyecto como a la interfaz. :thumbsup:
     
-4.  Realizar peticiones al servidor y almacenar datos en local. :thumbsup:
+4.  Practicar lo aprendido en el curso. :thumbsup:
     
-5.  Implementar Scrum como marco de referencia para el desarrollo del producto, basándonos siempre en los valores de Agile como puntos clave del trabajo en equipo y la mejora continua. :thumbsup:
+5.  Satisfacción propia :thumbsup:
     
-6.  Mejorar la comunicación entre los miembros del equipo :thumbsup:
-    
-7.  Mejorar vuestras habilidades de comunicación en público al exponer el proyecto en la sesión final :thumbsup:
 
 ## Instalación 🔧
 
@@ -66,7 +53,7 @@ Necesitarás instalar  📋 [Node.js](https://nodejs.org/) para trabajar con est
 
 1. Descarga o clona el repositorio. ⚙️
 ```sh
-$ git clone https://github.com/Adalab/project-promo-i-module-3-team-2-afternoon
+$ git clone https://github.com/LiliRascon/portfolio-Lili-Rascon.git
 ```
 2. Abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...)
 
@@ -76,7 +63,7 @@ $ npm install
 ```
 4. Arranca el proyecto:
 ```sh
-$ npm start
+$ gulp
 ```
 
 ## Especificaciones  
@@ -87,31 +74,11 @@ $ npm start
 
 - Uso de mediaqueries para que el diseño sea adaptable al dispositivo usando la estrategia mobile first
 
-- Acceso y envío de datos a un servidor :sparkles:
-
-- Almacenamiento en local usando LocalStorage :sparkles:
+- Acceso y envío de datos a través de un formulario :sparkles:
 
 - Uso de git para el control de versiones del proyecto :octocat:
 
 - Publicación del resultado en Internet usando GitHub Pages :sparkles:
-
-## Metodología de trabajo  🛠️
-### Scrum
-- Para la realización de este proyecto trabajamos en 2 sprints de 7 sesiones cada uno
-
-- Dedicamos el primer día a la planificación del sprint y el resto a trabajar en el desarrollo del proyecto. :ok_hand:
-
-- Para este proyecto trabajamos siguiendo el marco de trabajo Scrum, que consta de formar equipos auto-organizados y multifuncionales. Auto-organizados hace referencia a que los equipos elegimos la mejor opción de llevar a cabo el trabajo y no somos dirigidos por personas externas. Al ser multifuncionales, contamos con las competencias necesarias para llevar a cabo el trabajo. Este modelo de equipo está diseñado para optimizar la flexibilidad, la creatividad y la productividad. El objetivo final es entregar productos de forma iterativa e incremental, maximizando el aprendizaje de cada iteración. :white_check_mark:
-
-- Para cada sprint elegimos una Scrum Master que tenía especial atención en que el equipo siguiera los principios Scrum, agilizar los impedimentos que encontrabamos, facilitar las reuniones y las Daily Meeting
-
-- Al final de cada sprint hicimos una demo para presentar los resultados conseguidos, y una retrospectiva (retro) para evaluar nuestro trabajo en equipo y mejorar en el siguiente sprint.
-
-### GitHub
-Control de versiones :bookmark:
-- Ramas: A lo largo del proyecto hemos trabajado creando una rama permanente para cada scprint, y multiples ramas puntuales para crear o modificar algunas funcionalidades. 
-
-- Pull Request y revisión de código:twisted_rightwards_arrows: : para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión. 👍 
 
 ## Estructura
 :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  
@@ -119,66 +86,68 @@ Control de versiones :bookmark:
 
 ```
 /
-`- _public
-   |   `favicon.ico
-   |   `index.html
-   |   `manifest.json
-   |   `robots.txt
 `- _src
-   |- components
-   |  |- Form-components
-   |  |    `Collapsable.js
-   |  |    `DesignForm.js
-   |  |    `FillForm.js
-   |  |    `GetAvatar.js
-   |  |    `GetCameraPhoto.js
-   |  |    `ShareFormValidation.js
-   |  |    `ShareTwitter.js   
-   |  |- PreviewCard-components
-   |  |    `IconsRRSS.js
-   |  |    `PhotoUser.js
-   |  |    `ResetButton.js
-   |  |    `UserInfo.js
-   |  `App.js
-   |  `Footer.js
-   |  `FormGeneral.js 
-   |  `Header.js
-   |  `Landing.js
-   |  `Main.js
-   |  `PreviewCard.js 
+   |- assets
+   |  |- icons
+   |  |    `logoLily.png
    |  |- images
-   |  |- services
-   |  |    `CardService.js
-   |- stylesheets
-   | `|- base 
-   |  |      `- _reset
-   |  |- components
-   |  |      `_forms.scss
-   |  |- layouts
-   |  |      `- _collapsables.scss
-   |  |      `- _footer.scss
-   |  |      `- _form-design.scss
-   |  |      `- _form-fill.scss
-   |  |      `- _form-share.scss
-   |  |      `- _form-general.scss
-   |  |      `- _header.scss
-   |  |      `- _main.scss
-   |  |      `- _preview.scss
-   |  |- utils
-   |  |      `- _button.scss
-   |  |      `- _dynamic-styles.scss
-   |  |      `- _mixins.scss
-   |  |      `- _variables.scss
-   |   `- App.scss
-   |   `- Landing.scss  
-   |  |    |
-   |`- index.js
-`- .gitignore
-`- package-lock.json
-`- package.json
-`- README.md
-
- 
+   |  |    `CVLili-Rascon.jpg
+   |  |    `fond0.gif
+   |  |    `IMG_6750.jpg
+   |  |    `img1.jpeg
+   |  |    `img2.png
+   |  |    `img3.png
+   |  |    `img4.png 
+   |  |    `img5.png 
+   |  |    `img6.png 
+   |  |    `img7.png
+   |  |    `img8.png
+   |  |    `img9.png  
+   |  |    `img10.png
+   |  |    `logoLily.jpg
+   |  |    `videoPort.mp4 
+   |- scss 
+   |  |-components
+   |  |    `_contact.scss
+   |  |    `_footer.scss
+   |  |    `_footerProjects.scss
+   |  |    `_header.scss
+   |  |    `_headerProjects.scss
+   |  |    `_hero.scss
+   |  |    `_main.scss  
+   |  |    `_page.scss
+   |  |    `_projects.scss
+   |  |    `indexProject.scss 
+   |  |-core
+   |  |    `_reset.scss
+   |  |    `_settings.scss
+   |  |`main.scss
+   |- templates
+   |  |- partials
+   |  |    `_contact.html
+   |  |    `_footer.html
+   |  |    `_footerProjects.html
+   |  |    `_header.html
+   |  |    `_headerProject.html
+   |  |    `_hero.html
+   |  |    `_main.html
+   |  |    `_projects.html
+   |  |`_index.html
+   |  |`_indexProject.html
+   `- src
+   `- node_modules
+   `- public
+   `- .csscomb.json
+   `- .editorconfig
+   `- eslintrc.json
+   `- .gitignore
+   `- config.json
+   `- gulp-flow.png
+   `- gulpfile.js
+   `- LICENSE
+   `- package-lock.json
+   `- package.json
+   `- README.md
 
    
 ```
@@ -192,23 +161,17 @@ Control de versiones :bookmark:
 4.  Haz push en tu rama (`git push origin feature/fooBar`)
 5.  Crea un nuevo Pull Request
 
-## Agradecimientos 🏅 
- - ADALAB 🏫[https://adalab.es/] por brindarnos la oportunidad de pertenecer a esta comunidad y haber aprendido tanto de vuestro esquema de enseñanza.
- - A nuestra profe María 👩🏻‍🏫[https://github.com/pixelmary] , que ha tenido la paciencia, las ganas de trasmitir su enseñanza, por su ayuda en resolución de dudas, por atender nuestras llamadas y por simplemente su cariño.
- - A Miguel 👨‍🦲 [https://github.com/migueldelmazo], que indirectamente nos ha aportado muchísimo cada día, con sus vídeos (que han sido muy útiles), con su constante información por las redes (que sólo nos suma), por su ayuda en zoom y en todo, a la hora y el día que fuese necesario.
- - A todas 👩🏻 👩🏻‍🎓 👩🏻‍💼 👩🏻‍💻 👸🏻 y cada una de las compañeras que conformamos este equipo, por esa entrega y dedicación 💪🏻, por la disponibilidad que se ha tenido a la hora de resolver cualquier conflicto y siempre ha sido satisfactorio, por dedicar tantas horas y cariño 💘 a este proyecto. 
- - Por todo esto Salud 🍺 🍺 🍺 🍺 🍺....      Que nos lo merecemos!!
-
 ## Ecofriendly 🌍
 - Salvemos el Planeta!! :green_heart: 
 
 ## Recursos
-* [Adalab](https://adalab.es/)
-* [Modulo React](https://books.adalab.es/materiales-front-end-i/modulo-3.-react/3_2_intro_react)
+* [imgbb](https://imgbb.com/)
+* [imgbb](https://fontawesome.com/icons?d=gallery)
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [CodePen](https://codepen.io/)
+* [vimeo](https://vimeo.com/)
 * [Git commit emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
-
+* [normalize](https://necolas.github.io/normalize.css/8.0.1/normalize.css)
 
 ## Creado 
-⌨️ con ❤️ por Mother of CODE 😊
+⌨️ con ❤️ por Liliana Rascón 😊
