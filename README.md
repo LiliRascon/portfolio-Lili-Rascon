@@ -1,16 +1,16 @@
 ![Adalab](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LZZ7_HREMZMUMXiWrCj%2F-LZZ7xHB1bnkIxUrw_Yx%2F-LZZ83Upae8RuHPxHpB8%2Fadalab_brand.png?generation=1551089555419087&alt=media)
 
-![di](https://ibb.co/DrNcp6z)
+![di](https://i.ibb.co/3fHgbNb/IMG-6750.jpg)
 
-## Mothers of Code    
-## Generador de Tarjetas Digitales => The code cracks ⚔️ !!
+## PORTFOLIO LILI RASCÓN   
+## Visita mi portfolio 😍, también tienes acceso al código!!
 
 
 
-> => Código heredado. 👵🏻♻️
+> => Portfolio con una colección de mis proyectos. ♻️
 
 	
-<h3 text-align="center">EQUIPO 2 AFTERNOON  <a href="" target="_blank">   Mothers of Code</a>.</h3>
+<h3 text-align="center">Liliana Rascón E.  <a href="#" target="_blank">   Mothers of Code</a>.</h3>
 
 Somos un equipo de 5 compañeras programadoras 💻 de la promo Idelisa de ADALAB, situado en Madrid, aprendiendo con mucha ilusión diferentes tecnologías como lo es: HTML5, CSS3, SASS, JavaScript y React.
 
