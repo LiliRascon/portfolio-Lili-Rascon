@@ -1,124 +1,214 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png)
+![Adalab](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LZZ7_HREMZMUMXiWrCj%2F-LZZ7xHB1bnkIxUrw_Yx%2F-LZZ83Upae8RuHPxHpB8%2Fadalab_brand.png?generation=1551089555419087&alt=media)
 
-# Adalab web starter kit
+![di](https://ibb.co/DrNcp6z)
 
-Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
-Incluye SCSS, un sistema de plantillas HTML y un web server.
+## Mothers of Code    
+## Generador de Tarjetas Digitales => The code cracks ⚔️ !!
 
-## Guía de inicio rápido
 
-Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:
 
-1. Descarga o clona el repositorio
-2. Instala las dependencias locales con `npm install`
-3. Arranca el kit con `gulp`
+> => Código heredado. 👵🏻♻️
 
-## Espera, ¿esto se hace siempre?
+	
+<h3 text-align="center">EQUIPO 2 AFTERNOON  <a href="" target="_blank">   Mothers of Code</a>.</h3>
 
-> ### Solo una vez al principio en cada ordenador que utilicemos:
+Somos un equipo de 5 compañeras programadoras 💻 de la promo Idelisa de ADALAB, situado en Madrid, aprendiendo con mucha ilusión diferentes tecnologías como lo es: HTML5, CSS3, SASS, JavaScript y React.
 
-- Instalamos node
-- Instalamos el comando de gulp de forma global para poder usarlo desde cualquier carpeta usando `npm install --global gulp-cli`
+=>En este repositorio encontrarás nuestro último proyecto del módulo 3 de React de AdaLab, el cual ha sido creado para implementar esta tecnología (React), consiste en un código heredado (dedicado a crear una web para generar tarjetas de visita virtuales), el próposito en este modulo es, que el código que nos ha sido asignado, sea cambiado de JavaScript a React.   
 
-> ### Cada vez que descarguemos o clonemos un repo:
 
-- `npm install` para instalar los paquetes necesarios para convertir Sass a CSS, minizarlo, etc.
+## Autoras ✒️
+⚔️  👩🏻‍💻 ⚔️  | Laura García   | [GitHub](https://github.com/laurageeme) | ⚔️  👩🏻‍💻 ⚔️
 
-> ### Cada vez que estemos trabajando con nuestro código:
+🔱 💻 🔱 | Maite Villar   |  [GitHub](https://github.com/maitevillar)  | 🔱 💻 🔱
 
-- Desde nuestra terminal, ejecutamos el comando `gulp` para que realice la tarea por defecto, que en el caso del `gulpfile.js` que tenemos en adalab-web-starter-kit estará pendiente de nuestros archivos Sass, html y JavaScript y los compilará, minificará y/o recargará el servidor cada vez que hagamos un cambio
+👑 💃 👑 | Ana Valdivia   |  [GitHub](https://github.com/Anavalca)     | 👑 💃 👑 
 
-## Tareas de gulp incluidas
+🛡 🔮 🛡 | Liliana Rascón |  [GitHub](https://github.com/LiliRascon)   | 🛡 🔮 🛡
 
-### Inicio de un web server para desarrollo
+🏹 🏰 🏹 | Mercy Grace    |  [GitHub](https://github.com/mgracesb)     | 🏹 🏰 🏹
+ 
+## Contenido
 
+- [Autoras](#autoras)
+- [Objetivos del curso](#objetivos)
+- [Instalación](#instalación)
+- [Especificaciones](#especificaciones)
+- [Metodología](#metodología-de-trabajo)
+    - [Scrum](#scrum)
+    - [GitHub](#github)
+- [Estructura del proyecto](#estructura)
+- [Contribuye](#contribuye)
+- [Agradecimientos](#agradecimientos)
+- [Ecofriendly](#ecofriendly)
+- [Recursos](#recursos)
+- [Creado](#creado) 
+
+## Objetivos
+
+1.  Aprender un nuevo lenguaje de programación React (uso de clases, estructuras de datos, funciones, etc.) :thumbsup:
+    
+2.  Comprender cómo manipular una página a través de componentes. :thumbsup:
+    
+3.  Manejo de estados y uso de datos por medio de props. :thumbsup:
+    
+4.  Realizar peticiones al servidor y almacenar datos en local. :thumbsup:
+    
+5.  Implementar Scrum como marco de referencia para el desarrollo del producto, basándonos siempre en los valores de Agile como puntos clave del trabajo en equipo y la mejora continua. :thumbsup:
+    
+6.  Mejorar la comunicación entre los miembros del equipo :thumbsup:
+    
+7.  Mejorar vuestras habilidades de comunicación en público al exponer el proyecto en la sesión final :thumbsup:
+
+## Instalación 🔧
+
+Necesitarás instalar  📋 [Node.js](https://nodejs.org/) para trabajar con este repositorio, luego:
+
+1. Descarga o clona el repositorio. ⚙️
+```sh
+$ git clone https://github.com/Adalab/project-promo-i-module-3-team-2-afternoon
 ```
-npm start
+2. Abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...)
+
+3. Instala las dependencias locales
+```sh
+$ npm install
+```
+4. Arranca el proyecto:
+```sh
+$ npm start
 ```
 
-o lo que en este proyecto es lo mismo:
+## Especificaciones  
 
-```
-gulp
-```
+- Uso avanzado de HTML5
 
-Lanza un webserver con BrowserSync y varios watchers estarán pendientes de los archivos SCSS/JS/HTML, en la carpeta **public/**, para recargar el navegador cuando se necesite.
+- Maquetación usando SASS, incluyendo flex :sparkles:
 
-### Versión lista para subir a producción
+- Uso de mediaqueries para que el diseño sea adaptable al dispositivo usando la estrategia mobile first
 
-Para generar los ficheros para producción ejecuta:
+- Acceso y envío de datos a un servidor :sparkles:
 
-```
-npm run docs
-```
+- Almacenamiento en local usando LocalStorage :sparkles:
 
-o lo que en este proyecto es lo mismo:
+- Uso de git para el control de versiones del proyecto :octocat:
 
-```
-gulp docs
-```
+- Publicación del resultado en Internet usando GitHub Pages :sparkles:
 
-En la carpeta **docs/** se generarán los CSS y JS minimizados y sin sourcemaps listos para subir al repo. A continuación súbelos al repo y activa en GitHub Pages la opción **master/docs/**, para que GitHub Pages sirva la página desde la carpeta **docs/**.
+## Metodología de trabajo  🛠️
+### Scrum
+- Para la realización de este proyecto trabajamos en 2 sprints de 7 sesiones cada uno
 
----
+- Dedicamos el primer día a la planificación del sprint y el resto a trabajar en el desarrollo del proyecto. :ok_hand:
 
-Si quieres generar los ficheros listos para producción y además subirlos a GitHub directamente ejecuta el siguiente comando:
+- Para este proyecto trabajamos siguiendo el marco de trabajo Scrum, que consta de formar equipos auto-organizados y multifuncionales. Auto-organizados hace referencia a que los equipos elegimos la mejor opción de llevar a cabo el trabajo y no somos dirigidos por personas externas. Al ser multifuncionales, contamos con las competencias necesarias para llevar a cabo el trabajo. Este modelo de equipo está diseñado para optimizar la flexibilidad, la creatividad y la productividad. El objetivo final es entregar productos de forma iterativa e incremental, maximizando el aprendizaje de cada iteración. :white_check_mark:
 
-```
-npm run push-docs
-```
+- Para cada sprint elegimos una Scrum Master que tenía especial atención en que el equipo siguiera los principios Scrum, agilizar los impedimentos que encontrabamos, facilitar las reuniones y las Daily Meeting
 
-Este comando borra la carpeta **docs/**, la vuelve a generar, crea un commit con los nuevos ficheros y hace un `git push`, todo del tirón. ¿Cómo se te queda el cuerpo?. Si quieres saber cómo funciona échale un ojo al fichero `package.json`.
+- Al final de cada sprint hicimos una demo para presentar los resultados conseguidos, y una retrospectiva (retro) para evaluar nuestro trabajo en equipo y mejorar en el siguiente sprint.
 
-## Flujo de archivos con gulp
+### GitHub
+Control de versiones :bookmark:
+- Ramas: A lo largo del proyecto hemos trabajado creando una rama permanente para cada scprint, y multiples ramas puntuales para crear o modificar algunas funcionalidades. 
 
-Estas tareas de gulp producen el siguiente flujo de archivos:
+- Pull Request y revisión de código:twisted_rightwards_arrows: : para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión. 👍 
 
-![Gulp flow](./gulp-flow.png)
-
-## Estructura del proyecto
-
-Nuestro **gulpfile.js** usa un JSON de configuración con las rutas de los archivos a generar/vigilar.
-
-La estructura de carpetas tiene esta pinta:
+## Estructura
+:octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  
+ La estructura de carpetas es la siguiente:
 
 ```
 /
+`- _public
+   |   `favicon.ico
+   |   `index.html
+   |   `manifest.json
+   |   `robots.txt
 `- _src
-   |- api
-   |  |- data.json // para crearnos un servidor de datos local
-   |- assets
-   |  |- icons
+   |- components
+   |  |- Form-components
+   |  |    `Collapsable.js
+   |  |    `DesignForm.js
+   |  |    `FillForm.js
+   |  |    `GetAvatar.js
+   |  |    `GetCameraPhoto.js
+   |  |    `ShareFormValidation.js
+   |  |    `ShareTwitter.js   
+   |  |- PreviewCard-components
+   |  |    `IconsRRSS.js
+   |  |    `PhotoUser.js
+   |  |    `ResetButton.js
+   |  |    `UserInfo.js
+   |  `App.js
+   |  `Footer.js
+   |  `FormGeneral.js 
+   |  `Header.js
+   |  `Landing.js
+   |  `Main.js
+   |  `PreviewCard.js 
    |  |- images
-   |  |- js
-   |  `- scss
-   |     `- core
-   |
-   `- templates
-      `- partials
+   |  |- services
+   |  |    `CardService.js
+   |- stylesheets
+   | `|- base 
+   |  |      `- _reset
+   |  |- components
+   |  |      `_forms.scss
+   |  |- layouts
+   |  |      `- _collapsables.scss
+   |  |      `- _footer.scss
+   |  |      `- _form-design.scss
+   |  |      `- _form-fill.scss
+   |  |      `- _form-share.scss
+   |  |      `- _form-general.scss
+   |  |      `- _header.scss
+   |  |      `- _main.scss
+   |  |      `- _preview.scss
+   |  |- utils
+   |  |      `- _button.scss
+   |  |      `- _dynamic-styles.scss
+   |  |      `- _mixins.scss
+   |  |      `- _variables.scss
+   |   `- App.scss
+   |   `- Landing.scss  
+   |  |    |
+   |`- index.js
+`- .gitignore
+`- package-lock.json
+`- package.json
+`- README.md
 
+ 
+
+   
 ```
+:octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:
+:octocat:  :octocat:
 
-## HTML
+## Contribuye 🖇️
+1.  Haz un Fork ([https://github.com/yourname/yourproject/fork](https://github.com/yourname/yourproject/fork))
+2.  Crea una nueva rama (`git checkout -b feature/fooBar`)
+3.  Haz commit con los cambios (`git commit -m 'Add some fooBar'`)
+4.  Haz push en tu rama (`git push origin feature/fooBar`)
+5.  Crea un nuevo Pull Request
 
-Viene incluído el paquete [**gulp-html-partial**](https://www.npmjs.com/package/gulp-html-partial) que nos va a permitir tener un sistema de plantillas html
+## Agradecimientos 🏅 
+ - ADALAB 🏫[https://adalab.es/] por brindarnos la oportunidad de pertenecer a esta comunidad y haber aprendido tanto de vuestro esquema de enseñanza.
+ - A nuestra profe María 👩🏻‍🏫[https://github.com/pixelmary] , que ha tenido la paciencia, las ganas de trasmitir su enseñanza, por su ayuda en resolución de dudas, por atender nuestras llamadas y por simplemente su cariño.
+ - A Miguel 👨‍🦲 [https://github.com/migueldelmazo], que indirectamente nos ha aportado muchísimo cada día, con sus vídeos (que han sido muy útiles), con su constante información por las redes (que sólo nos suma), por su ayuda en zoom y en todo, a la hora y el día que fuese necesario.
+ - A todas 👩🏻 👩🏻‍🎓 👩🏻‍💼 👩🏻‍💻 👸🏻 y cada una de las compañeras que conformamos este equipo, por esa entrega y dedicación 💪🏻, por la disponibilidad que se ha tenido a la hora de resolver cualquier conflicto y siempre ha sido satisfactorio, por dedicar tantas horas y cariño 💘 a este proyecto. 
+ - Por todo esto Salud 🍺 🍺 🍺 🍺 🍺....      Que nos lo merecemos!!
 
-## Imágenes e iconos
+## Ecofriendly 🌍
+- Salvemos el Planeta!! :green_heart: 
 
-Tenemos en **\_src/** una carpeta para las imágenes del proyecto y una para los iconos como el favicon o los iconos de dispositivos móviles. Estos últimos se generan en la raíz de las carpetas **public/** y **docs/**
+## Recursos
+* [Adalab](https://adalab.es/)
+* [Modulo React](https://books.adalab.es/materiales-front-end-i/modulo-3.-react/3_2_intro_react)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [CodePen](https://codepen.io/)
+* [Git commit emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
 
-## CSS
 
-Viene incluído el paquete [**gulp-combine-mq**](https://www.npmjs.com/package/gulp-combine-mq) que agrupa todas las mediaqueries al final del documento css.
-
-## JS
-
-Podemos usar parciales de JS: en el JSON de configuración, **config.json** especificamos los archivos JS que utilizamos y en el orden que deben procesarse.
-
-## ¿Cómo actualizo si tengo una versión anterior?
-
-En principio puedes descargar todos los archivos fuera de **\_src/** y sustituir los de tu proyecto. Además deberías replicar la estructura de carpetas dentro de **\_src/**.
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
+## Creado 
+⌨️ con ❤️ por Mother of CODE 😊
