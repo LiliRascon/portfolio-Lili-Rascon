@@ -1,0 +1,315 @@
+
+.page__main{
+  position: relative;
+  background-color: #CBDBC5;
+  text-shadow: black;
+  width: 100%;
+  height: calc(100vh - 100px);
+  @media all and (min-width: 768px){
+    top: 120px;
+    
+  }
+  svg{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    padding-left: 30px;
+    top: 235px;
+
+    @media all and (min-width: 768px){
+      top: 350px;
+      height: 180px;
+    }
+    @media all and (min-width: 1024px){
+      top: 450px;
+      height: 180px;
+    }
+    @media all and (min-width: 1200px){
+      top: 360px;
+      height: 180px;
+      width: 60%;
+      left: 250px;
+    }
+  }
+
+  .containerLeft{
+    @media all and (min-width: 768px) {
+     background-color: white;
+     width: 50%;
+     height: 91vh;
+    }
+    @media all and (min-width: 768px) {
+      background-color: white;
+      width: 50%;
+      height: 93vh;
+     }
+    .containerImg{
+      // background-image: url(../assets/images/byn.png);
+      // background-size: cover;
+      position: absolute; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      width: 85%;
+      height: 300px;
+      
+      @media all and (min-width: 768px) {
+        // width: 60%;
+        // left: 10%;
+        // top: 30px;
+        width: 53%;
+        left: 10%;
+        top: 30px;
+        height: 390px;
+      }
+      @media all and (min-width: 1024px) {
+        width: 53%;
+        left: 10%;
+        top: 30px;
+        height: 550px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 32%;
+        left: 22%;
+        top: 30px;
+        height: 480px;
+       
+      }
+            
+      .containerImgPhoto{  
+       //background-image: url("../assets/images/IMG_6750.jpg");          
+        width: 90%;
+        height: 260px;   
+        @media all and (min-width: 768px) {
+          width: 92%;
+          height: 360px;
+        } 
+       
+        @media all and (min-width: 1024px) {
+          width: 92%;
+          height: 510px;
+        }
+        @media all and (min-width: 1024px) {
+          width: 92%;
+          height: 440px;
+          
+        }
+      }
+      .containerImgPhoto:hover{
+        opacity: 0.7;             
+      }
+    }
+  }
+
+  .title{
+   position: absolute;
+   top: calc(100% - 35%);
+   left: 10%;
+   @media all and (min-width: 768px){
+    top: calc(100% - 40%);
+     left: 32%;
+   }
+   @media all and (min-width: 1024px){
+    top: calc(100% - 45%);
+     left: 32%;
+   }
+   @media all and (min-width: 1200px){
+    top: calc(100% - 23%);
+     left: 37%;
+   }
+
+   
+    .name{
+      font-family: 'Mukta Malar', sans-serif;
+      font-size: 25px;
+      text-transform: uppercase;
+      color: #6B6B6B;
+      @media all and (min-width: 768px){
+        font-size:40px;
+      }
+      @media all and (min-width: 1024px){
+        font-size:55px;
+      }
+
+      .changeColor{
+        @media all and (min-width: 768px){
+          color: white;
+        }
+      }
+     
+    }
+    .description{
+      font-family: 'Mukta Malar', sans-serif;
+      font-size: 29px;
+      text-transform: uppercase;
+      line-height: 0.5;
+      color: #333333;
+      @media all and (min-width: 768px){
+        font-size:44px;
+      }
+      @media all and (min-width: 1024px){
+        font-size:61px;
+      }
+      .changeColor{
+        @media all and (min-width: 768px){
+          color: white;
+        }
+      }
+    }    
+  }
+
+  .containerClaim{
+    visibility: hidden;
+    @media all and (min-width: 768px){
+      position: absolute;
+      top: 80px;
+      left: 55%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      visibility: visible;
+      background-color: white;
+      width: 270px;
+      height: 200px;
+      align-items: center;
+    }
+    @media all and (min-width: 1024px){
+      position: absolute;
+      top: 120px;
+      left: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      visibility: visible;
+      background-color: white;
+      width: 370px;
+      height: 350px;
+      align-items: center;
+    }
+    @media all and (min-width: 1200px){
+      position: absolute;
+      top: 95px;
+      left: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      visibility: visible;
+      background-color: white;
+      width: 370px;
+      height: 350px;
+      align-items: center;
+    }
+    .subContainerClaim{
+      background-color: #E6E4E4;
+      width: 250px;
+      height: 180px;
+
+      @media all and (min-width: 1024px){
+       width: 330px;
+       height: 305px;
+       padding-top: 20px;
+      }
+      .claim{
+        text-transform: uppercase;
+        font-family: 'Mukta Malar', sans-serif;
+        line-height: 1.3;
+        margin-left: 20px;
+        font-size: 24px;
+        color: #6B6B6B;
+
+        @media all and (min-width: 1024px){
+          margin-left: 40px;
+          font-size: 40px;
+        }
+        .init{
+          font-size: 35px;
+          @media all and (min-width: 1024px){
+            
+            font-size: 50px;
+          }
+        }
+      }
+      .claim1{
+        text-transform: uppercase;
+        font-family: 'Mukta Malar', sans-serif;
+        line-height: 1.3;
+        margin-left: 20px;
+        font-size: 24px; 
+        color: #333333;
+        @media all and (min-width: 1024px){
+          margin-left: 40px;
+          font-size: 40px;
+        }
+        .init{
+          font-size: 35px;
+          @media all and (min-width: 1024px){
+            
+            font-size: 50px;
+          }
+        }
+      }
+    }
+  }
+  .containerSocialNetworks{
+    position: fixed;
+    top: 100px;
+    left: 90%;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    @media all and (min-width: 768px){
+      visibility: visible;
+      position: fixed;
+      top: 200px;
+      left: 93%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    i{
+      font-size: 30px;
+      padding-bottom: 10px;
+      color: #6B6B6B;
+    }
+   
+
+  }
+ 
+}
+.hola{
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  @media all and (min-width: 768px){
+    top: 200px;
+   
+   
+  }
+  svg{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+    padding-left: 30px;
+    top: calc(0px - 40%);
+
+    @media all and (min-width: 768px){
+      top: 113vh;
+      height: 200px;
+      left: -190px;
+     
+    }
+    @media all and (min-width: 1024px){
+      top: 105vh;
+      left: -280px;
+      height: 300px;
+    }
+    @media all and (min-width: 1200px){
+      top: 105vh;
+      left: -380px;
+      height: 380px;
+      
+    }
+  }
+}
+

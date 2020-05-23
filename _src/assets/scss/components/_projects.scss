@@ -1,0 +1,154 @@
+.page__ImgProject{
+   display: flex;
+   justify-content: center;
+   
+   
+   .containerImagesProjects{   
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      height: 150px;
+      justify-content: center;
+      margin-bottom: 100px;
+      @media all and (min-width: 768px){
+         width: 60%;
+      }
+      @media all and (min-width: 1024px){
+         width: 50%;
+         
+      }
+      @media all and (min-width: 1200px){
+         width: 40%;
+      }
+      
+      .space__1{
+         width: 100%;
+         height: 20px;
+      }
+      
+      .project1{
+         background-color: #CBDBC5;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;   
+         width: 100%;
+         height: 150px;
+         margin-top: 15px;
+         //@at-root: 10px 5px 5px black;
+         //box-shadow: inset 5em 1em #333333;
+         box-shadow: 3px 3px #333333, -1em 0 0.4em #546650;
+         @media all and (min-width: 768px){
+            margin-top: 25px;
+            height: 180px;
+         }
+         @media all and (min-width: 1024px){
+            margin-top: 30px;
+            height: 200px;
+         }
+         @media all and (min-width: 1200px){
+            margin-top: 40px;
+            height: 300px;
+         }
+
+         .titleImg1{     
+            width: 170%;
+            height: 120px;
+            margin-left: 5%;   
+            display: flex;
+            flex-direction: column; 
+
+            .title{
+               font-family: 'Mukta Malar', sans-serif;
+               font-size: 13px;
+               text-transform: uppercase;
+               color: #546650;
+               @media all and (min-width: 768px){
+                  font-size: 15px;
+               }
+               @media all and (min-width: 1024px){
+                  font-size: 20px;
+               }
+               @media all and (min-width: 1200px){
+                  font-size: 25px;
+                 
+               }
+            }
+         
+            .description{
+               font-size: 10px;
+               font-family: 'Mukta', sans-serif;
+               color: #546650;
+               @media all and (min-width: 768px){
+                  font-size: 13px;
+               }
+               @media all and (min-width: 1024px){
+                  font-size: 15px;
+               }
+               @media all and (min-width: 1200px){
+                  font-size: 20px;
+               }
+
+               .descProj{
+                  padding-top: 5%;
+                  padding-left: 10%;
+                  font-size: 10px;
+                  font-family: 'Mukta', sans-serif;   
+                  color: #546650;
+                  @media all and (min-width: 768px){
+                     font-size: 13px;
+                  }
+                  @media all and (min-width: 1024px){
+                     font-size: 15px;
+                  }
+                  @media all and (min-width: 1200px){
+                     font-size: 20px;
+                  }
+               }
+               .desc{
+                  font-size: 10px;
+                  font-family: 'Mukta', sans-serif;
+                  font-weight: 200;
+                  color: #546650;
+                  line-height: 1.2;
+                  @media all and (min-width: 768px){
+                     font-size: 13px;
+                  }
+                  @media all and (min-width: 1024px){
+                     font-size: 15px;
+                  }
+                  @media all and (min-width: 1200px){
+                     font-size: 20px;
+                  }
+               }
+              
+               i{
+                  padding-top: 10px;
+                  padding-right: 5px;
+                  color: #546650;
+                  font-size: 15px;
+               }                 
+            }
+         }   
+            a{
+               text-decoration: none;
+               img{  
+                  margin-left: 10%;
+                  width: 80%;
+                  height: 100px;
+                  border: 5px solid #333333;   
+                  @media all and (min-width: 1200px){
+                     height: 180px;
+                     width: 95%;
+                     margin-left: 0;
+                  }
+               }
+            }
+      }
+   }
+   .space{
+      width: 100%;
+      height: 50px;
+      
+   }
+}

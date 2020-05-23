@@ -1,0 +1,28 @@
+.page__footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  @media all and (min-width: 1024px){
+    font-size: 20px;
+    left: 60px;
+ }
+  padding: 1rem;
+  font-size: 15px;
+  font-family: 'Mukta', sans-serif;
+  color: #6B6B6B;
+  z-index: 999;
+  @media all and (min-width: 768px){
+        font-size: 20px;
+        left: 60px;
+  }
+  @media all and (min-width: 1024px){
+    border: none;
+    font-size: 20px;
+    left: 89px;
+ }
+ @media all and (min-width: 1200px){
+  font-size: 20px;
+  left: 127px;
+}
+
+}

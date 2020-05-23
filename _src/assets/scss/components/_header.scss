@@ -1,0 +1,98 @@
+.page__header {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 46px;
+  justify-content: center;
+
+  @media all and (min-width:768px){
+    position: fixed;
+    top: 20px;
+    z-index: 999;
+    height: 65px;
+  }
+  
+  .menu a{ 
+    font-family: 'Mukta', sans-serif;
+    font-weight: 200;
+    font-size: 12px;  
+    text-decoration: none;
+    color: #546650;
+    padding: 0px 7px;
+    text-transform: uppercase;
+    
+    img{
+      width: 40px;
+      height: 40px;
+      @media all and (min-width:1024px){
+        width: 50px;
+        height: 50px;
+      }
+    }
+    &.menuIni{
+      @media all and (min-width:768px){
+        padding-right: 140px;
+        padding-left: 69px;
+        font-size: 14px;
+        color: #546650 ;
+      }
+      @media all and (min-width:1024px){
+        padding-right: 190px;
+        padding-left: 132px;
+        font-size: 16px;
+      }
+     
+    }
+    &.menuIni:hover{
+      color:#AABFA4;
+    }
+    &.menuProj{
+      @media all and (min-width:768px){
+        padding-right: 40px;
+        font-size: 14px;
+        color: #333333;
+      }
+      @media all and (min-width:1024px){
+        padding-right: 60px;
+        font-size: 16px;
+      } 
+    }
+    &.menuProj:hover{
+      color:#AABFA4;
+    }
+    &.menuAbout{
+      @media all and (min-width:768px){
+        padding-right: 40px;
+        font-size: 14px;
+        color: #333333;
+      }
+      @media all and (min-width:1024px){
+        padding-right: 60px;
+        font-size: 16px;
+        color: #333333;
+      } 
+    }
+    &.menuAbout:hover{
+      color:#AABFA4;
+    }
+    &.final{
+      @media all and (min-width:768px){
+        font-size: 14px;
+        color: #333333;
+      }
+    }
+    &.final:hover{
+      color:#AABFA4;
+    }
+    @media all and (min-width:1024px){
+      
+      font-size: 16px;
+      color: #333333;
+    } 
+  }
+  
+}
+
+

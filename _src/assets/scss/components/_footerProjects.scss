@@ -1,0 +1,43 @@
+.footer__page {
+   .footer{
+      position: fixed;
+      left: 20px;
+      bottom: 0px;
+      width: 100vw;
+      font-size: 15px;
+      font-family: 'Mukta', sans-serif;
+      color: whitesmoke;
+      @media all and (min-width: 768px){
+         font-size: 20px;
+         left: 60px;
+      }
+      @media all and (min-width: 1024px){
+         font-size: 20px;
+         left: 60px;
+      }
+      @media all and (min-width: 1200px){
+         font-size: 20px;
+         left: 60px;
+      }
+
+      i{
+         padding-left: 26%;
+         font-size: 20px;
+         color: whitesmoke;
+         @media all and (min-width: 768px){
+            font-size: 30px;
+            padding-left: 38%;
+         }
+         @media all and (min-width: 1024px){
+            font-size: 40px;
+            padding-left: 52%;
+         }
+         @media all and (min-width: 1200px){
+            font-size: 30px;
+            padding-left: 70%;
+         }
+      }
+   }
+   
+   
+ }
